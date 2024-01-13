@@ -6,13 +6,16 @@ body {
 
 header,footer {
     background-color: gray;
-    color: #fff;
+    color:burlywood;
     text-align: center;
     padding:1em;
+    
 
 }
 nav{
     background-color: beige;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     text-align: center;
     display: grid;
@@ -20,34 +23,53 @@ nav{
 
 }
 nav ul{
+    
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: inline-block;
+    margin: 60;
+    padding: 80;
     text-align: center;
+    place-content: center;
 
 }
 nav li{
+    list-style: none;
     display: inline-block;
     text-align: center;
+    place-items: center;
 }
 nav a{
     display: block;
-    color:white;
+    color:coral;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
+    place-items: center;
 }
 nav a:hover{
-    background-color: black;
-    color: blue;
+    background-color: gray;
+    color:lightblue;
     text-align: center;
 }
 main{
-    padding: 2em;
+    padding: 4em;
+    background-color: beige;
+    
+
 
 }
 section{
     margin-bottom: 1.5em;
+
+}
+h2{
+    text-align: center;
+    padding: 12px 16px;
+    background-color: lightblue;
+}
+h3{
+    text-align: center;
+    background-color: lightblue;
+}
+p{
+    text-align: center;
 }
