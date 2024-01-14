@@ -1,3 +1,9 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 200px 150px;
+    
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif ;
     margin: 0;
@@ -39,7 +45,7 @@ nav li{
 }
 nav a{
     display: block;
-    color:coral;
+    color:burlywood;
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
@@ -73,3 +79,11 @@ h3{
 p{
     text-align: center;
 }
+img{
+    width: 150px;
+    height: auto;
+    position:absolute;
+    left: 50px;
+    bottom: 710px;
+}
+
