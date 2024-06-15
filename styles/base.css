@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 900;
     margin: 0;
     padding: 0;
     background-color: #FFF8E8;
@@ -24,6 +25,8 @@ header {
 }
 
 header span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -67,6 +70,15 @@ main {
     margin-top: 20px;
 }
 
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.card ul li {
+    margin-bottom: 10px;
+    
+}
 .card {
     background-color: #FFF8E8;
     padding: 20px;
@@ -84,7 +96,7 @@ footer {
 }
 
 footer img.flag {
-    width: 20px;
+    width: 35px;
     height: auto;
     vertical-align: middle;
     margin-left: 10px;
