@@ -3,18 +3,27 @@ body {
     font-weight: 900;
     margin: 0;
     padding: 0;
-    background-color: #FFF8E8;
+    background-color: #FFFFFF;
+    color: 212121;
 }
 
 header {
-    background-color: #FFF8E8;
-    color: #000022;
+    background-color: #FFFFFF;
+    color: #212121;
     text-align: center;
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.hamburger{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+
 }
 
 .profile-pic {
@@ -32,7 +41,7 @@ header span {
 }
 
 nav {
-    background-color: #AFA2FF;
+    background-color: #1E88E5;
 }
 
 nav ul {
@@ -48,14 +57,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFF8E8;
+    color: #212121;
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
 }
 
 nav ul li a:hover {
-    background-color: #AFA2FF;
+    background-color: #FFFFFF;
 }
 
 main {
@@ -80,7 +89,7 @@ main {
     
 }
 .card {
-    background-color: #FFF8E8;
+    background-color: #FFFFFF;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -88,8 +97,8 @@ main {
 }
 
 footer {
-    background-color: #AFA2FF;
-    color: #000022;
+    background-color: #1E88E5;
+    color: #212121;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -101,3 +110,4 @@ footer img.flag {
     vertical-align: middle;
     margin-left: 10px;
 }
+

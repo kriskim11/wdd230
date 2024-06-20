@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     nav ul {
         display: flex;
     }
@@ -17,4 +17,12 @@
     .card {
         width: 45%;
     }
+}
+    
+
+#mode {
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+
 }
