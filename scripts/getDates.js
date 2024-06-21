@@ -11,11 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const modeButton = document.querySelector('#mode');
     const main = document.querySelector('main');
 
-    // Hamburger Menu Toggle
-    hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-        hamburger.innerHTML = navLinks.classList.contains('active') ? '&times;' : '&#9776;';
-    });
 
     // Dark Mode Toggle
     modeButton.addEventListener('click', () => {

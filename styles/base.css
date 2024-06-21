@@ -17,13 +17,8 @@ header {
     flex-direction: column;
 }
 
-.hamburger{
-    display: none;
-    font-size: 2rem;
-    cursor: pointer;
-    color: white;
 
-}
+
 
 .profile-pic {
     border-radius: 50%;
@@ -42,6 +37,8 @@ header span {
 nav {
     background-color: #1E88E5;
 }
+
+
 
 nav ul {
     list-style-type: none;
