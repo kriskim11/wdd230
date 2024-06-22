@@ -1,0 +1,33 @@
+
+
+header {
+    padding: 20px 40px;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+.section {
+    padding: 20px 40px;
+}
+
+.hero .hero-image {
+    height: 400px;
+}
+
+.left-content {
+    width: 30%;
+}
+
+.middle-content {
+    width: 40%;
+}
+
+.right-content {
+    width: 30%;
+}
+
+footer {
+    padding: 20px 40px;
+}
