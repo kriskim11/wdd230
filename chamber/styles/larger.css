@@ -1,4 +1,8 @@
 
+@media (min-width: 320px) {
+    nav ul {
+        display: flex;
+    }
 
 header {
     padding: 20px 40px;
@@ -30,4 +34,5 @@ nav li {
 
 footer {
     padding: 20px 40px;
+}
 }
