@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #FFFFFF;
-    color: #212121;
+    background-color: #003366;
+    color: #FFFFFF;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -16,8 +16,6 @@ header {
     justify-content: center;
     flex-direction: column;
 }
-
-
 
 
 .profile-pic {
@@ -33,12 +31,29 @@ header span {
     font-size: 1.5em;
     font-weight: bold;
 }
+.picture {
+    position: relative;
+    text-align: center;
+}
 
-nav {
-    background-color: #1E88E5;
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 5px 10px;
+    font-size: 1.5em;
+    font-family:"Roboto Condensed", sans-serif;
+    white-space: nowrap;
+    z-index: 10; 
 }
 
 
+nav {
+    background-color: #004080;
+}
 
 nav ul {
     list-style-type: none;
@@ -53,20 +68,37 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #212121;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
 }
 
 nav ul li a:hover {
-    background-color: #FFFFFF;
+    background-color: #003366;
 }
 
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.picture {
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    font-size: 1.5em;
+    white-space: nowrap;
 }
 
 .content {
@@ -93,8 +125,8 @@ main {
 }
 
 footer {
-    background-color: #1E88E5;
-    color: #212121;
+    background-color: #004080;
+    color: #FFFFFF;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
