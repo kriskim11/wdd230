@@ -41,12 +41,15 @@
     </nav>
     <button id ="modeButton">Toggle Dark Mode</button>
     <main>
-        <picture class="picture">
-            <source srcset="images/newport-temple.webp" media="(min-width: 960px)">
-            <source srcset="images/newport-temple.webp" media="(max-width: 959px)">
-            <img src="images/newport-temple.webp" alt="Newport Beach Temple">
+
+        <div class="image-container">
+            <picture>
+                <source srcset="images/newport-temple.webp" media="(min-width: 960px)">
+                <source srcset="images/newport-temple.webp" media="(max-width: 959px)">
+                <img src="images/newport-temple.webp" alt="Newport Beach Temple">
+            </picture>
             <div class="overlay">Newport Beach Temple</div>
-        </picture>
+        </div>
 
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="content">
@@ -77,7 +80,7 @@
         loading="lazy"></iframe>
     </main>
     <footer>
-        <p>&copy;<span id="year"></span> Kristopher| California <img src="images/flag photo.png" alt="California-flag" class="flag"></p>
+        <p>&copy;<span id="year"></span> Kristopher| California <img src="images/flag-photo.png" alt="California-flag" class="flag"></p>
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
